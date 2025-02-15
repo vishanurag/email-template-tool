@@ -1,0 +1,31 @@
+@media screen and (max-width: 1000px) {
+    .sm-w-25 {
+        max-width: 50px;
+        margin-top: 20px;
+    }
+}
+.font-color-box {
+    max-width: 50px !important;
+}
+
+.min-h-80 {
+    min-height: 80vh;
+}
+.email-content-form {
+    min-height: 300px !important;
+}
+.font-Times-New-Roman {
+    font-family: 'Times New Roman', Times, serif !important;
+}
+.font-Arial {
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+.font-Italic {
+    font-style: italic !important;
+}
+.font-Vardana {
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+.font-Sans-sarif {
+    font-family: sans-serif !important;
+}

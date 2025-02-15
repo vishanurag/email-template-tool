@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{title}}</title>
+    <style>
+      .min-h-80 {min-height: 80vh;
+      }
+
+      .email-content-form {min-height: 300px !important;
+      }
+
+      .font-Times-New-Roman {font-family: 'Times New Roman', Times, serif !important;
+      }
+
+      .font-Arial {font-family: Arial, Helvetica, sans-serif !important;
+      }
+
+      .font-Italic {font-style: italic !important;
+      }
+
+      .font-Vardana {font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+      }
+
+      .font-Sans-sarif {font-family: sans-serif !important;
+      }
+
+      img {max-width: 100%;max-height: 200px;
+      }
+
+      h2 {max-width: 80%;max-height: max-content;
+color: {{color-title}};
+      }
+
+      p {max-width: 70%;max-height: max-content;text-align: justify;
+color: {{color-content}};
+      }
+
+      b { width: 25%; max-width: 180px; max-height: max-content;text-align: left;position: absolute;bottom: 10px;left: "10px";
+color: {{color-author}};
+      }
+      .flex {
+        display: flex;
+        flex-direction: column;
+      }
+      .jc-center {
+        justify-content: start;
+        align-items: center;
+      }
+      .min-h-80 {
+        min-height: 80vh;
+      }
+      .w-100 {
+        width: 100%;
+      }
+      .p-2 {
+        padding: 5px;
+      }
+      .pt-5 {
+        padding-top: 5%;
+      }
+      .position-relative {
+        position: relative;
+      }
+      .position-absolute {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+
+      }
+      .rounded {
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="main-canvas w-100 bg-white rounded min-h-80">
+      <div class="email-body rounded min-h-80 pt-5 p-2 flex flex-column jc-center position-relative"
+      ><img  class="border p-2 border-3 rounded"  }  src="{{image}}"  alt="{{title}}"/>
+      <h2 class="{{font-title}}">{{title}}</h2>
+      <p class="{{font-content}}">{{content}}</p>
+      <b class="{{font-author}} position-absolute"> {{author}} </b>
+      </div>
+    </div>
+  </body>
+</html>
